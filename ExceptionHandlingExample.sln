@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi", "WepApi\WepApi.csproj", "{D9586F6D-853E-41B1-B3BF-7964C51B2988}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuttingConcerns", "CrossCuttingConcerns", "{62BB91F7-3252-4450-A249-2A058CB6A31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "CrossCuttingConcerns\Exceptions\Exceptions.csproj", "{1607502A-56F8-4001-B720-B3F464EBE9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9586F6D-853E-41B1-B3BF-7964C51B2988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9586F6D-853E-41B1-B3BF-7964C51B2988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9586F6D-853E-41B1-B3BF-7964C51B2988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9586F6D-853E-41B1-B3BF-7964C51B2988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1607502A-56F8-4001-B720-B3F464EBE9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1607502A-56F8-4001-B720-B3F464EBE9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1607502A-56F8-4001-B720-B3F464EBE9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1607502A-56F8-4001-B720-B3F464EBE9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1607502A-56F8-4001-B720-B3F464EBE9EF} = {62BB91F7-3252-4450-A249-2A058CB6A31B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2970FA38-D6AE-47D2-A61C-49CC42D2E839}
+	EndGlobalSection
+EndGlobal
